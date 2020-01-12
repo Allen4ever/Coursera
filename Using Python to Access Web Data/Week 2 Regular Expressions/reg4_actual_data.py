@@ -7,4 +7,8 @@ for line in hand:
     if len(numtarget)>0:
         for num in numtarget:
             numlist.append(int(num))
-numsum=sum(numlist)
+print(sum(numlist))
+
+# Optional: Just for Fun
+import re
+print(sum([int(num) for num in re.findall('[0-9][$0-9]*',open('Actual data.txt').read())]))
