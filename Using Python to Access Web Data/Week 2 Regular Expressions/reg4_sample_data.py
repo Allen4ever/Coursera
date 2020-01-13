@@ -1,3 +1,6 @@
+'''
+Extracting Data With Regular Expressions
+'''
 import re
 hand=open('Sample data.txt')
 numlist=list()
