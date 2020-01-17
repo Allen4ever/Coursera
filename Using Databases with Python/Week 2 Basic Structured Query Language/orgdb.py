@@ -1,5 +1,5 @@
 '''
-Counting Email in a Database
+Counting domain name of the email address in a Database
 '''
 import sqlite3
 import re
